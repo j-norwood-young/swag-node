@@ -1,22 +1,26 @@
 {
-    "name": "swag",
-    "version": "0.6.1",
-    "author": "Elving Rodriguez <elving.pr@gmail.com>",
-    "description": "Give your handlebars.js templates some swag son!",
+    "name": "swag-node",
+    "version": "0.0.1",
+    "author": "Elving Rodriguez <elving.pr@gmail.com>, Jason Norwood-Young <jason@10layer.com>",
+    "description": "Give your handlebars.js templates some swag son! (Node only bro)",
     "main": "./index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/elving/swag.git"
+    },
+    "scripts": {
+        "test": "mocha 'test/*.js'"
     },
     "keywords": [
         "swag",
         "handlebars",
         "templates",
         "helpers",
-        "utilities"
+        "utilities",
+        "nodejs"
     ],
     "dependencies" : {
-        "handlebars": "1.x"
+        "handlebars":"^4.7.6"
     },
     "devDependencies" : {
         "coffee-script": "~1.6.3",
